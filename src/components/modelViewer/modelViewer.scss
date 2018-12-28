@@ -1,0 +1,38 @@
+.model-viewer-canvas {
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 316px);
+    height: 100%;
+    position: relative;
+
+    .model-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .create-component {
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .info-mark {
+            position: absolute;
+            top: 0px;
+        }
+        .btn-control {
+            width: 250px;
+            height: 32px;
+            margin-top: 5px;
+        }
+    }
+
+    .model-viewer-loading {
+        position: absolute;
+        top: 40%;
+        left: 45%;
+    }
+}

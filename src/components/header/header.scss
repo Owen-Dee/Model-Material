@@ -1,0 +1,26 @@
+.material-replace-header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #e8e9e9;
+    .title {
+        position: absolute;
+        left: 30px;
+        font-size: 18px;
+        color: #1f1f1f;
+    }
+    .close-modal {
+        position: absolute;
+        right: 40px;
+        .close-btn {
+            font-size: 36px;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            color: #1890ff;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.material-replace-modal {
+    position: fixed;
+    height: 100%;
+    width: 100% !important;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 2.5%;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    
+    .ant-modal-content {
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        .model-content {
+            width: 100%;
+            height: calc(100% - 60px);
+            display: flex;
+        }
+    }
+    .ant-modal-close {
+        display: none;
+    }
+    .ant-modal-body {
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .ant-modal-footer {
+        display: none;
+    }
+}

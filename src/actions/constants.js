@@ -1,0 +1,17 @@
+// 改变选中的网格模型id
+export const CHANGE_SELECTED_MESH_MODEL_ID = 'CHANGE_SELECTED_MESH_MODEL_ID';
+
+// 改变选中网格模型的材质
+export const CHANGE_SELECTED_MESH_MODEL_MATERAIL = 'CHANGE_SELECTED_MESH_MODEL_MATERAIL';
+
+//记录整个模型id
+export const RECORD_MODEL_ID = 'RECORD_MODEL_ID';
+
+// 记录模型的材质替换信息
+export const RECORD_COMPONENT_REPLACE_INFO = 'RECORD_COMPONENT_REPLACE_INFO';
+
+// 记录鼠标hover到材质折叠面板头部的模型组件id
+export const RECORD_HOVER_COMPONENT_MODEL_ID = 'RECORD_HOVER_COMPONENT_MODEL_ID';
+
+// 记录已创建模型部位名称的信息
+export const RECORD_CREATED_COMPONENTS = 'RECORD_CREATED_COMPONENTS';
