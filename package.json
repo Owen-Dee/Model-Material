@@ -1,5 +1,5 @@
 {
-  "name": "@qunhe/coohom-rc-texture-swap",
+  "name": "modelmaterial",
   "version": "0.0.3",
   "dependencies": {
     "@babel/core": "7.1.0",
